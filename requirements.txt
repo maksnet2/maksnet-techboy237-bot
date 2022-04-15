@@ -20,14 +20,14 @@ psutil
 aiohttp>=2.2.5
 Pillow>=4.2.0
 CurrencyConverter
-#googletrans
+googletrans
 google_trans_new
 jikanpy
 speedtest-cli
 coffeehouse==2.2.4
 regex
 bleach
-git+https://github.com/starry69/python-markdown2.git
+cloudscraper
 wikipedia
 telethon==1.16.4
 telegraph
@@ -68,4 +68,4 @@ envparse
 better_profanity
 nudepy
 motor
-cloudscraper
+
