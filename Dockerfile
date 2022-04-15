@@ -64,12 +64,12 @@ RUN apt update && apt upgrade -y && \
 # Pypi package Repo upgrade
 RUN pip3 install --upgrade pip setuptools
 
-# Copy Python Requirements to /root/Techboy237bot
-RUN git clone -b shiken https://github.com/techboy237bot/Techboy237bot /root/Techboy237bot
-WORKDIR /root/Techboy237bot
+# Copy Python Requirements to /root/LaylaRobot
+RUN git clone -b shiken https://github.com/QueenArzoo/LaylaRobot /root/LaylaRobot
+WORKDIR /root/LaylaRobot
 
 #Copy config file to /root/LaylaRobot/LaylaRobot
-COPY ./Techboy237bot/sample_config.py ./Techboy237bot/config.py* /root/Techboy237bot/Techboy237bot/
+COPY ./LaylaRobot/sample_config.py ./LaylaRobot/config.py* /root/LaylaRobot/LaylaRobot/
 
 ENV PATH="/home/bot/bin:$PATH"
 
@@ -77,4 +77,4 @@ ENV PATH="/home/bot/bin:$PATH"
 RUN pip3 install -U -r requirements.txt
 
 # Starting Worker
-CMD ["python3","-m","Techboy237bot"]
+CMD ["python3","-m","LaylaRobot"]
