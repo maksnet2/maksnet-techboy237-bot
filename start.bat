@@ -1,4 +1,4 @@
 @echo off
-TITLE Techboy237bot
+TITLE Layla Robot
 :: Enables virtual env mode and then starts Rika
-env\scripts\activate.bat && py -m Techboy237bot
+env\scripts\activate.bat && py -m LaylaRobot
