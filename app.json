@@ -13,7 +13,7 @@
    "addons": [
       {
          "options": {
-            "version": "12"
+            "version": "20"
          },
          "plan": "heroku-postgresql"
       }
@@ -45,7 +45,7 @@
       "SQLALCHEMY_DATABASE_URI": {
          "description": "Your postgres sql db, empty this field if you dont have one.",
          "required": true,
-         "value": "postgres://qpvkhovelzfbxe:8b381661820c258e6c70d9854df8d8c5f2dec0306f4a04739fa743f4e9905f14@ec2-34-192-210-139.compute-1.amazonaws.com:5432/dbedhdnh56b5v9"
+         "value": "    postgres://hokildxgyyuvto:79985361846d84d1a2933a21b656d82235ad7a3b2257c12d88abec247df4b4cc@ec2-44-194-4-127.compute-1.amazonaws.com:5432/d1ifco5uefbqfa"
       },      
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
