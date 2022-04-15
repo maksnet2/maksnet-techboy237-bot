@@ -1,6 +1,3 @@
-[![Deploy](https://telegra.ph/file/aaa10262ebe6670eecf58.jpg)](https://heroku.com/deploy?template=https://github.com/QueenArzoo/LaylaRobot.git)
-# Layla Robot
-### Click Below Image to Deploy
 
 
 
