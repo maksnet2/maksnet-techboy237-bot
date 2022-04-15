@@ -4,7 +4,7 @@ import os
 
 
 def get_user_list(config, key):
-    with open("{}/Techboy237bot/{}".format(os.getcwd(), config), "r") as json_file:
+    with open("{}/LaylaRobot/{}".format(os.getcwd(), config), "r") as json_file:
         return json.load(json_file)[key]
 
 
@@ -16,7 +16,7 @@ class Config(object):
 
     API_ID = 12842387  # integer value, dont use ""
     API_HASH = "76205c4101c16ea755b3e0a2de340b49"
-    TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    TOKEN = "5165850053:AAF4qtWnjCZpZXmZzfX5m3yJBNrfiR2Rkrw"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = 842014037  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "techboy237" 
     SUPPORT_CHAT = "Techboy237botSupport"  # Your own group for support, do not add the @
@@ -28,7 +28,7 @@ class Config(object):
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "    postgres://qpvkhovelzfbxe:8b381661820c258e6c70d9854df8d8c5f2dec0306f4a04739fa743f4e9905f14@ec2-34-192-210-139.compute-1.amazonaws.com:5432/dbedhdnh56b5v9"  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "postgres://hokildxgyyuvto:79985361846d84d1a2933a21b656d82235ad7a3b2257c12d88abec247df4b4cc@ec2-44-194-4-127.compute-1.amazonaws.com:5432/d1ifco5uefbqfa"  # needed for any database modules
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
