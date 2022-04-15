@@ -45,7 +45,7 @@
       "SQLALCHEMY_DATABASE_URI": {
          "description": "Your postgres sql db, empty this field if you dont have one.",
          "required": true,
-         "value": "    postgres://hokildxgyyuvto:79985361846d84d1a2933a21b656d82235ad7a3b2257c12d88abec247df4b4cc@ec2-44-194-4-127.compute-1.amazonaws.com:5432/d1ifco5uefbqfa"
+         "value": "postgres://hokildxgyyuvto:79985361846d84d1a2933a21b656d82235ad7a3b2257c12d88abec247df4b4cc@ec2-44-194-4-127.compute-1.amazonaws.com:5432/d1ifco5uefbqfa"
       },      
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
