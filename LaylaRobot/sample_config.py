@@ -5,7 +5,7 @@ import os
 
 def get_user_list(config, key):
     with open("{}/LaylaRobot/{}".format(os.getcwd(), config), "r") as json_file:
-        return json.load(json_file)
+        return json.load(json_file)[key]
 
 
 # Create a new config.py or rename this to config.py file in same dir and import, then extend this class.
@@ -39,14 +39,14 @@ class Config(object):
 
     # OPTIONAL
     ##List of id's -  (not usernames) for users which have sudo access to the bot.
-    DRAGONS = get_user_list("app.json", "DRAGONS")
+    DRAGONS = get_user_list("app.json", "sudos")
     ##List of id's - (not usernames) for developers who will have the same perms as the owner
-    DEV_USERS = get_user_list("app.json", "DEV_USERS")
+    DEV_USERS = get_user_list("app.json", "devs")
     ##List of id's (not usernames) for users which are allowed to gban, but can also be banned.
-    DEMONS = get_user_list("app.json", "DEMONS")
+    DEMONS = get_user_list("app.json", "supports")
     # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
-    TIGERS = get_user_list("app.json", "TIGERS")
-    WOLVES = get_user_list("app.json", "WOLVES")
+    TIGERS = get_user_list("app.json", "tigers")
+    WOLVES = get_user_list("app.json", "whitelists")
     DONATION_LINK = None  # EG, paypal
     CERT_PATH = None
     PORT = 5000
